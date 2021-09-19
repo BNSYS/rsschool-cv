@@ -5,77 +5,133 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andrey Sokolovskiy Curriculum Vitae </title>
-    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/images/favicon.ico">
     <link rel="stylesheet" href="./assets/styles/reset.css">
     <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
     <div class="wrapper">
-        <header class="header">
-            <div class="header-wrapper">
-     
-            </div> 
-        <nav></nav>
-        </header>
-        
-        <sidebar class="sidebar">
-            <div class="photo">
-                <img src="./assets/images/photo.jpg" alt="Photo">
-            </div>
-            
-            <div class="contact-info">
-
-            </div>
-                Mobile: +48 516 313 157 
-                Email:bugnetsys@gmail.com 
-                Additional contact information: [Skype](https://join.skype.com/invite/FB0ACrmLRW1z), [LinkedIn](https://www.linkedin.com/in/andrey-v-sokolovskiy/) 
-        </sidebar> 
-        <main class="main">
-            <section class="name">
-            <h1>
-                Andrey Sokolovskiy 
-            </h1>
-            </section>
-            <setion class="summary">
-
-            </setion>
-            <section class="work-exp">
-
-            </section>
-            <section class="education">
-
-            </section>
-            
-            <pre>
-                function DNAStrand(dna){
-                    let strandDNAin =[], strandDNAout =[] ;
-                    strandDNAin = dna.split(``);
-                    for (let i=0; i<strandDNAin.length; i++){
-                    if (strandDNAin[i] === `A`){strandDNAout.push(`T`);} else 
-                    if (strandDNAin[i] === `T`){strandDNAout.push(`A`);} else
-                    if (strandDNAin[i] === `G`){strandDNAout.push(`C`);} else
-                    if (strandDNAin[i] === `C`){strandDNAout.push(`G`);} 
-                    }
-                    return strandDNAout.join(``);
-                }
-            </pre>
-            
-        </main>
+        <div class="wrapper-content">
+            <aside class="sidebar-right">
+                <div class="photo">
+                    <img src="./assets/images/photo.jpg" alt="Photo" height="250" >
+                </div>
+                <section class="contact-info">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>Mobile: +48 516 313 157</li>
+                        <li>Email: <a href="mailto:bugnetsys@gmail.com">bugnetsys@gmail.com</a></li>
+                        <li>
+                        <a href="http://join.skype.com/invite/FB0ACrmLRW1z">[Skype]</a>
+                        <a href="https://www.linkedin.com/in/andrey-v-sokolovskiy/">[LinkedIn]</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="about-me">
+                    <h4>About</h4>
+                    <p>Like to learn, continuously self-develop and gain new skills. Have a good IT technical background and a well-developed understanding of software development life cycle. The veracity life experience is helping me to reach my goals. Like to solve problems, meet new peoples, develop relationships and be part of a highly motivated and result-driven team.</p>
+                </section>
+               
+            </aside> 
+            <main class="main">
+                <header class="header">
+                    <div class="header-wrapper">
+             
+                    </div> 
+                <nav class="navigation">
+                    <ul class="navigation-list">
+                        <li class="navigation-element"><a href="./">Introduction</a></li>
+                        <li class="navigation-element"><a href="./">CV</a></li>
+                        <li class="navigation-element"><a href="./">Projects</a></li>
+                    </ul>                                      
+                </nav>
+                </header>    
+    
+                <section class="name">
+                <h1>Andrey Sokolovskiy</h1>
+                <h3>Quality Assurance / Software Test Engineer</h3>
+                <hr>
+                </section>
+                <section class="name">
+                    <h3>Summary of qualification:</h3>
+                   <ul>
+                    <li>Functional and non-functional testing of web and mobile applications, API testing, test automation;</li>
+                    <li>Project documentation testing, test documentation development (test plans, test cases, issue reports, test reports);</li>
+                    <li>Working knowledge of Software Development and Software Testing life cycle, good grasp of testing methodologies and issue life cycle;</li>
+                    <li>Well-developed understanding of computing and internet technologies;</li>
+                    <li>JavaScript, Cypress, Java (Pre-Intermediate), Selenium WD, Appium, TestNG, HTML&CCS (Pre-Intermediate), SQL (Pre-Intermediate);</li>
+                    <li>Hands-on on the preparation of the test environment. Solid knowledge in system and network administration;</li>
+                    <li>Excellent problem solving skills, well organized and detail oriented, pragmatic, good interpersonal skills.</li>
+                   </ul>
+                </section>
+                <section class="name">
+                    <h3>Technical skills:</h3>
+                    <ul>
+                    <li><b>Tools:</b> Jira, Confluence, Qase, TestRail, Apache Jmeter, Selenium IDE, Katalon, Chrome DevTools, Chrome Dev Extensions, Charles Proxy, Fiddler, Postman, SVN, Git, Maven, Gradle, Jenkins, IntelliJ IDEA (Selenium Web Driver, TestNG, Appium), Android Studio. XCode, SoapUI, SQL Developer.</li>
+                    <li><b>Virtualization:</b> VMware, Virtual Box.</li>
+                    <li><b>OS:</b> Windows (advanced), Linux (intermediate), MacOS (intermediate). Mobile OS: Android (advanced), iOS (advanced), Windows Phone (intermediate).</li>
+                    </ul>
+                </section>
+                <section class="name">
+                    <h3>Certifications:</h3>
+                    <p>GASQ - ISTQB CTFL. EF SET - English C1 Adv. EPAM - STI. QA Academy - ST. TestProvider – QAE, EWT, QAS.</p>
+                </section>
+                <section class="work-exp">
+                    <h3>Work experience:</h3>
+                    <ul>
+                    <li><b>Quality Assurance / Software Test Engineer. March 2020 – Present, Transition Technologies - Managed Services, Bialystok, Poland.</b><p>Performing functional and non-functional testing of Web applications. REST API testing with automation. Automating the mobile application testing with created framework (Java, TestNG, Appium, Selenium) Creating, maintaining and updating test documentation. Analyzing requirements and preparing functional and non-functional enhancement suggestions. Projects: Corporate employee information system, Employee Time Tracking System.</p></li>
+                    <li><b>Quality Assurance / Software Test Engineer. February 2018 – February 2020, 2 years 1 month, APRO Software, Minsk, Belarus.</b><p>Quality Assurance / Software Test Engineer. February 2018 – February 2020, 2 years 1 month, APRO Software, Minsk, Belarus.</p></li>    
+                    </ul>
+                </section>
+                <section class="education">
+                    <h3>Education:</h3>
+                    <ul>
+                    <li>2018 «Software testing introduction» EPAM, Minsk, Svyatoslav Kulikov. 2018 «Basics of software testing», QA Academy (A1QA), Minsk.</li>
+                    <li>2008 Bachelor in Computer since, Belarussian National Technical University, faculty of information technologies and robotics.</li>
+                    </ul>
+                </section>
+                <section class="code-example">
+                    <h3>Code Example:</h3>
+                    <pre>
+                    <code>
+function DNAStrand(dna){
+let strandDNAin =[], strandDNAout =[] ;
+strandDNAin = dna.split(``);
+for (let i=0; i&#60;strandDNAin.length; i++){
+    if (strandDNAin[i] === `A`){strandDNAout.push(`T`);} else 
+    if (strandDNAin[i] === `T`){strandDNAout.push(`A`);} else
+    if (strandDNAin[i] === `G`){strandDNAout.push(`C`);} else
+    if (strandDNAin[i] === `C`){strandDNAout.push(`G`);} 
+    }
+return strandDNAout.join(``);
+}
+                    </code>
+                    </pre>                  
+                </section>
+                <section class="languages">
+                    <h3>Languages:</h3>
+                English – Pre-advanced (C1), Polish – Intermediate (B1), Russian – Native.
+                <hr>
+                </section>
+                <div class="pda">
+                    I hereby agree to the processing of personal data included in my application for the needs necessary to carry out the recruitment process carried out in accordance with art. 6 par. 1 lit. a Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of individuals with regard to the processing of personal data and on the free movement of such data and repealing Directive 95/46/EC (General Data Protection Regulation). I also consent to processing of my personal data for the purposes of any future recruitment processes, up to 12 months. I was informed that I have the right to withdraw my consent at any time; that the withdrawal of consent does not affect the lawfulness of the processing that was made on the basis of consent before its withdrawal.
+                </div>
+            </main>
+        </div>
         <footer class="footer">
             <ul class="footer-list">
                 <li class="footer-item">
-                    <a href="https://rs.school/js/" class="footer-link">RSschool</a>
+                    <a href="https://rs.school/js/" class="footer-link"><img src="./assets/images/rs_school_js.svg" alt="rs_logo" width="80"></a>
                 </li>
                 <li class="footer-item">
-                    <a href="" class="footer-link">2021</a>
+                    <a href="./" class="footer-link">2021</a>
                 </li>
                 <li class="footer-item">
-                    <a href="https://github.com/BNSYS" class="footer-link">GitHub</a>
+                    <a href="https://github.com/BNSYS" class="footer-link"><img src="./assets/images/git.svg" alt="GitHub" width="35"></a>
                 </li>
             </ul>
         </footer> 
     </div>
-    
 <script src="./assets/scripts/script.js"></script>
 </body>
 </html>
