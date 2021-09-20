@@ -121,6 +121,7 @@ max-width: 1000px;
 margin-left: auto;
 margin-right: auto;
 background-color: aquamarine;
+box-shadow: -5px 5px 20px 5px rgba(45, 67, 85, 0.9);
 }
 .wrapper-content{
   display: flex;
@@ -140,9 +141,7 @@ background-color: aquamarine;
 display: flex;
 justify-content: space-around;
 }
-.navigation-element{
 
-}
 .photo {
   margin-top: 20px;
   text-align: center;
@@ -173,7 +172,7 @@ padding: 5px;
   /* flex-wrap: wrap; */
   align-items: center;
   justify-content: space-between;
-  background-color: darkgray;
+  background-color:grey;
 }
 
 .footer-list {
@@ -192,9 +191,7 @@ padding: 5px;
 .footer-item:first-child{
   margin-left: 100px;
 }
-
-@media screen ( max-width: 600 px ) {
-  .wrapper {
-  display: block;
-  }
+.code-cw{
+  background-color: black;
+  color: yellow;
 }
